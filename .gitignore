@@ -1,0 +1,33 @@
+# Local .terraform directories
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform/*
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore all .tfvars files (used for local variable overrides)
+# An example file can be created as terraform.tfvars.example
+*.tfvars
+*.tfvars.json
+
+# Ignore override files (meant to be used only locally)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include the lock file to ensure consistent provider versions across environments
+# Uncomment the line below to ignore it if you prefer
+.terraform.lock.hcl
+
+# Local configuration files from editors and OS
+.DS_Store
+.vscode/
+
+**/.terraform/
+
